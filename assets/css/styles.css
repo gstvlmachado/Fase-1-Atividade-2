@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
 :root {
-    --font-title: 'MuseoModerno', cursive;
+    --font-title:'Diphylleia', serif;
     --font-body: 'Roboto', sans-serif;
     --color-lightred: #CF003A;
     --color-darkred: #3F0011;
@@ -45,10 +47,10 @@ a:hover{
 .header-title{
     font-family: var(--font-title);
     font-size: 7vmin;
-    letter-spacing: 4px;
+    /* letter-spacing: 4px; */
     background-color: var(--color-lightred);
     color: var(--color-light);
-    padding: 5px 10px;
+    padding: 13px;
     border-radius: 40px 0;
     -webkit-box-shadow: 0px 0px 15px 0px #000000;
     box-shadow: 0px 0px 15px 0px #000000;
@@ -83,7 +85,6 @@ a:hover{
 .hero span{
     color: var(--color-light);
     font-style: italic;
-    font-weight: 800;
     background-color: var(--color-lightred);
     padding: 0px 1px;
 }
