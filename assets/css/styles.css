@@ -1,0 +1,89 @@
+:root {
+    --font-title: 'MuseoModerno', cursive;
+    --font-body: 'Roboto', sans-serif;
+    --color-lightred: #CF003A;
+    --color-darkred: #3F0011;
+    --color-lightgreen: #00994C;
+    --color-darkgreen: #2D400B;
+    --color-light: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--font-body);
+}
+
+a{
+    color: var(--color-light);
+    font-size: 3vmin;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: var(--color-lightred);
+}
+
+.header-page {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    
+}
+
+.header-title{
+    font-family: var(--font-title);
+    font-size: 7vmin;
+    letter-spacing: 4px;
+    background-color: var(--color-lightred);
+    color: var(--color-light);
+    padding: 5px 10px;
+    border-radius: 40px 0;
+    -webkit-box-shadow: 0px 0px 15px 0px #000000;
+    box-shadow: 0px 0px 15px 0px #000000;
+}
+
+.header-menu ol{display: flex; gap: 25px;}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(67, 0, 17, 0.5)), url(../images/mantas-hesthaven.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    color: var(--color-light);
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 2.5rem;
+}
+
+.hero p{
+    font-size: 1.5rem;
+}
+
+.hero span{
+    color: var(--color-light);
+    font-style: italic;
+    font-weight: 800;
+    background-color: var(--color-lightred);
+    padding: 0px 1px;
+}
